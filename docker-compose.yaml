@@ -1,0 +1,10 @@
+services:
+  claude:
+    image: 'node:22-alpine'
+    #image: 'node:20-alpine3.20'
+    volumes:
+      - ../:/code
+      - ./:/home
+    working_dir: /code
+    command: /bin/sh -c "npm install -g @anthropic-ai/claude-code gh && sleep 10h"
+
