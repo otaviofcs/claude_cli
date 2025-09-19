@@ -1,9 +1,9 @@
-==Pré requisitos==
+## Pré requisitos ##
 
 - Considera que a pasta no nível acima da atual ( ./.. ) estão seus códigos
 - Considera que os dados da home (onde fica a pasta oculta do claude e do npm) vai ser a própria pasta raiz desse repositório
 
-==Como Usar?==
+## Como Usar? ##
 
 docker-compose up -d
 
